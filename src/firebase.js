@@ -4,13 +4,13 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore, doc, setDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAHExHfMDRu2lVecgYxgW86TXDF-dvsWrY",
-  authDomain: "personal-finance-tracker-ec56e.firebaseapp.com",
-  projectId: "personal-finance-tracker-ec56e",
-  storageBucket: "personal-finance-tracker-ec56e.appspot.com",
-  messagingSenderId: "669303047696",
-  appId: "1:669303047696:web:5b4b41cc896752c03e6c95",
-  measurementId: "G-7X36E69HYW",
+  apiKey: "AIzaSyD6S8KuojlqawchVTpfF4xS0d89NXEKwlk",
+  authDomain: "clone-372314.firebaseapp.com",
+  projectId: "youtube-clone-372314",
+  storageBucket: "youtube-clone-372314.appspot.com",
+  messagingSenderId: "17067895440",
+  appId: "1:17067895440:web:b73a360293294d60b38615",
+  measurementId: "G-YDHPH9L3WG"
 };
 
 const app = initializeApp(firebaseConfig);
